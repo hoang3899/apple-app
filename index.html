@@ -1,0 +1,940 @@
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<meta name="viewport" content="width=device-width, initial-">
+<link rel="stylesheet" href="main.css" type="text/css">
+
+<body>
+  <nav id="chapternav" class="chapternav theme-light with-paddles">
+    <div class="chapternav-wrapper">
+      <ul class="chapternav-items">
+        <li class="chapternav-item chapternav-item-tv4k">
+          <a class="chapternav-link" href="#">
+            <figure class="chapternav-icon"></figure>
+            <span class="chapternav-label">Apple TV 4K</span>
+          </a>
+        </li>
+        <li class="chapternav-item chapternav-item-tvhd">
+          <a class="chapternav-link" href="#">
+            <figure class="chapternav-icon"></figure>
+            <span class="chapternav-label">Apple TV HD</span>
+          </a>
+        </li>
+        <li class="chapternav-item chapternav-item-tvapp">
+          <a class="chapternav-link" href="#">
+            <figure class="chapternav-icon"></figure>
+            <span class="chapternav-label">Apple TV app</span>
+          </a>
+        </li>
+        <li class="chapternav-item chapternav-item-tvplus">
+          <a class="chapternav-link" href="#">
+            <figure class="chapternav-icon"></figure>
+            <span class="chapternav-label">Apple TV+</span>
+          </a>
+        </li>
+        <li class="chapternav-item chapternav-item-homepod-mini">
+          <a class="chapternav-link" href="#">
+            <figure class="chapternav-icon"></figure>
+            <span class="chapternav-label">HomePod mini</span>
+          </a>
+        </li>
+        <li class="chapternav-item  chapternav-item-homekit">
+          <a class="chapternav-link" href="#">
+            <figure class="chapternav-icon"></figure>
+            <span class="chapternav-label">Home app</span>
+          </a>
+        </li>
+        <li class="chapternav-item chapternav-item-home-accessories">
+          <a class="chapternav-link" href="#">
+            <figure class="chapternav-icon"></figure>
+            <span class="chapternav-label">Accessories</span>
+          </a>
+        </li>
+      </ul>
+      <div class="chapternav-paddles">
+        <button class="chapternav-paddle chapternav-paddle-left hidden"></button>
+        <button class="chapternav-paddle chapternav-paddle-right hidden"></button>
+      </div>
+    </div>
+  </nav>
+  <main id="main" class="main">
+    <section class="section section-hero background-alt" style="opacity: 1;">
+      <div class="section-content row">
+        <div class="large-12">
+          <div class="hardware-lockup">
+            <picture id="overview-hero-tv-1" class="overview-hero-tv loaded"
+              style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+              <img src="https://www.apple.com/v/tv-home/d/images/overview/hero_tv__d8nngabrofue_large.png" alt>
+            </picture>
+          </div>
+          <div class="device-lockup">
+            <picture id="overview-hero-homepod-appletv-lockup-1" class="overview-hero-homepod-appletv-lockup loaded1"
+              style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+              <img
+                src="https://www.apple.com/v/tv-home/d/images/overview/hero_homepod_appletv_lockup__ecxlvf764zu6_large.png"
+                alt>
+              </pictue>
+          </div>
+        </div>
+        <div class="section-header-hero large-centered" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+          <h1 class="section-headline typography-hero-headline">The future hits home.</h1>
+          <p class="section-intro typography-hero-intro">Simply connect your favorite devices and transform your house
+            into a remarkably smart, convenient, and entertaining home. Control lights, locks, and thermostats with your
+            iPhone — or just your voice. Play any song, in any room, from anywhere. And elevate movie night with
+            theater-like picture and sound. All with the security and privacy of Apple.</p>
+          <p class="section-caption typography-hero-caption">
+            <a href="#" class="icon-wrapper cta">
+              <span class="icon-copy">
+                Stream
+                <em>Fraggle Rock: Back To The Rock</em>
+                on the Apple TV app
+              </span>
+              <span class="icon icon-after more"></span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section section-flex-tiles background-alt pl-alignment">
+      <div class="section-content row">
+        <div class="grid">
+          <div class="grid-item homepod-mini half-width appear">
+            <div class="tile tile-rounded">
+              <div class="tile-content">
+                <div class="copy-wrapper">
+                  <p class="tile-eyebrow typography-product-tile-eyebrow">HomePod mini</p>
+                  <h3 class="tile-headline typography-product-tile-headline">Room-filling sound in every&nbsp;room.</h3>
+                  <p class="tile-price typography-intro">$99</p>
+                  <div class="tile-cta">
+                    <a href="#" class="button button-elevated">Buy</a>
+                    <a href="#" class="icon-wrapper typography-tile-cta">
+                      <span class="icon-copy">Learn more</span>
+                      <span class="icon icon-after more"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="picture-wrapper">
+                  <picture id="overview-room-filling-sound-1" class="overview-room-filling-sound name loaded"
+                    data-picture-loaded="">
+                    <img
+                      src="https://www.apple.com/v/tv-home/d/images/overview/room_filling_sound__zagu3551kwyi_large.jpg"
+                      alt="">
+                  </picture>
+                  <noscript>
+                    <picture class="overview-room-filling-sound name">
+                      <source
+                        srcset="/v/tv-home/d/images/overview/room_filling_sound__zagu3551kwyi_small.jpg, /v/tv-home/d/images/overview/room_filling_sound__zagu3551kwyi_small_2x.jpg 2x"
+                        media="(max-width:734px)" />
+                      <source
+                        srcset="/v/tv-home/d/images/overview/room_filling_sound__zagu3551kwyi_medium.jpg, /v/tv-home/d/images/overview/room_filling_sound__zagu3551kwyi_medium_2x.jpg 2x"
+                        media="(max-width:1068px)" />
+                      <source
+                        srcset="/v/tv-home/d/images/overview/room_filling_sound__zagu3551kwyi_large.jpg, /v/tv-home/d/images/overview/room_filling_sound__zagu3551kwyi_large_2x.jpg 2x"
+                        media="(min-width:0px)" />
+                      <img src="/v/tv-home/d/images/overview/room_filling_sound__zagu3551kwyi_large.jpg" alt>
+                    </picture>
+                  </noscript>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item atv-4k half-width appear">
+            <div class="tile tile-rounded" data-analytics-section-engagement="name:atv-4k">
+              <div class="tile-content">
+                <div class="copy-wrapper">
+                  <picture id="overview-apple-tv-4k-logo-1" class="overview-apple-tv-4k-logo icon loaded" data-lazy=""
+                    data-picture-loaded="">
+                    <img
+                      src="https://www.apple.com/v/tv-home/d/images/overview/apple_tv_4k_logo__vyjj7uki3tui_large.png"
+                      alt="Apple TV 4K">
+                  </picture>
+                  <noscript>
+                    <picture class="overview-apple-tv-4k-logo icon">
+                      <source
+                        srcset="/v/tv-home/d/images/overview/apple_tv_4k_logo__vyjj7uki3tui_medium.png, /v/tv-home/d/images/overview/apple_tv_4k_logo__vyjj7uki3tui_medium_2x.png 2x"
+                        media="(max-width:1068px)" />
+                      <source
+                        srcset="/v/tv-home/d/images/overview/apple_tv_4k_logo__vyjj7uki3tui_large.png, /v/tv-home/d/images/overview/apple_tv_4k_logo__vyjj7uki3tui_large_2x.png 2x"
+                        media="(min-width:0px)" />
+                      <img src="/v/tv-home/d/images/overview/apple_tv_4k_logo__vyjj7uki3tui_large.png"
+                        alt="Apple TV 4K">
+                    </picture>
+                  </noscript>
+                  <h3 class="tile-headline typography-product-tile-headline">A higher definition of home entertainment.
+                  </h3>
+                  <p class="tile-price typography-intro">Starting at $179</p>
+                  <div class="tile-cta">
+                    <a href="/us/shop/goto/buy_tv/apple_tv_4k" data-analytics-title="buy apple tv 4k"
+                      aria-label="buy apple tv 4k" class="button button-elevated">Buy</a>
+                    <a href="/apple-tv-4k/" data-analytics-title="learn more about apple tv 4k"
+                      aria-label="learn more about apple tv 4k" class="icon-wrapper typography-tile-cta"><span
+                        class="icon-copy">Learn more</span><span class="icon icon-after more"></span></a>
+                  </div>
+                </div>
+                <div class="picture-wrapper">
+                  <picture id="overview-higher-definition-1" class="overview-higher-definition name loaded" data-lazy=""
+                    data-picture-loaded="">
+                    <img
+                      src="https://www.apple.com/v/tv-home/d/images/overview/higher_definition__hfivribdc3ue_large.jpg"
+                       alt="">
+                  </picture>
+                  <noscript>
+                    <picture class="overview-higher-definition name">
+                      <source
+                        srcset="/v/tv-home/d/images/overview/higher_definition__hfivribdc3ue_medium.jpg, /v/tv-home/d/images/overview/higher_definition__hfivribdc3ue_medium_2x.jpg 2x"
+                        media="(max-width:1068px)" />
+                      <source
+                        srcset="/v/tv-home/d/images/overview/higher_definition__hfivribdc3ue_large.jpg, /v/tv-home/d/images/overview/higher_definition__hfivribdc3ue_large_2x.jpg 2x"
+                        media="(min-width:0px)" />
+                      <img src="/v/tv-home/d/images/overview/higher_definition__hfivribdc3ue_large.jpg" alt>
+                    </picture>
+                  </noscript>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item home-app full-width appear">
+            <div class="tile tile-rounded" data-analytics-section-engagement="name:home app">
+              <div class="tile-content">
+                <div class="copy-wrapper">
+                  <picture id="overview-home-icon-1" class="overview-home-icon icon loaded" data-lazy=""
+                    data-picture-loaded="">
+                    <img src="https://www.apple.com/v/tv-home/d/images/overview/home_icon__9u57pp0qahea_large.png"
+                      alt="">
+                  </picture>
+                  <noscript>
+                    <picture class="overview-home-icon icon">
+                      <source
+                        srcset="/v/tv-home/d/images/overview/home_icon__9u57pp0qahea_medium.png, /v/tv-home/d/images/overview/home_icon__9u57pp0qahea_medium_2x.png 2x"
+                        media="(max-width:1068px)" />
+                      <source
+                        srcset="/v/tv-home/d/images/overview/home_icon__9u57pp0qahea_large.png, /v/tv-home/d/images/overview/home_icon__9u57pp0qahea_large_2x.png 2x"
+                        media="(min-width:0px)" />
+                      <img src="/v/tv-home/d/images/overview/home_icon__9u57pp0qahea_large.png" alt>
+                    </picture>
+                  </noscript>
+                  <p class="tile-eyebrow typography-product-tile-eyebrow">Home</p>
+                  <h3 class="tile-headline typography-product-tile-headline">Your home at your command.</h3>
+                  <div class="tile-cta">
+                    <a href="/ios/home/" data-analytics-title="learn more about home app"
+                      aria-label="learn more about home app" class="icon-wrapper typography-tile-cta"><span
+                        class="icon-copy">Learn more</span><span class="icon icon-after more"></span></a>
+                  </div>
+                </div>
+                <div class="picture-wrapper">
+                  <picture id="overview-your-home-at-your-command-1"
+                    class="overview-your-home-at-your-command name loaded" data-lazy="" data-picture-loaded="">
+                    <img
+                      src="https://www.apple.com/v/tv-home/d/images/overview/your_home_at_your_command__b1w2tomy2wia_large.jpg"
+                       alt="">
+                  </picture>
+                  <noscript>
+                    <picture class="overview-your-home-at-your-command name">
+                      <source
+                        srcset="/v/tv-home/d/images/overview/your_home_at_your_command__b1w2tomy2wia_medium.jpg, /v/tv-home/d/images/overview/your_home_at_your_command__b1w2tomy2wia_medium_2x.jpg 2x"
+                        media="(max-width:1068px)" />
+                      <source
+                        srcset="/v/tv-home/d/images/overview/your_home_at_your_command__b1w2tomy2wia_large.jpg, /v/tv-home/d/images/overview/your_home_at_your_command__b1w2tomy2wia_large_2x.jpg 2x"
+                        media="(min-width:0px)" />
+                      <img src="/v/tv-home/d/images/overview/your_home_at_your_command__b1w2tomy2wia_large.jpg" alt>
+                    </picture>
+                  </noscript>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-smart-home background-alt" data-anim-scroll-group="SmartHome" data-component-list="SmartHome">
+			<div class="section-content appear" data-analytics-section-engagement="name:smart home">
+				<div class="section-header large-6 large-centered medium-9 small-9">
+					<h2 class="section-header-headline typography-section-header-headline">Every reason to turn your house into a smart&nbsp;home.</h2>
+				</div>
+				<div aria-label="main gallery" class="section-gallery" data-component-list="SmartHomeGallery">
+					<div class="gallery" id="smart-home-gallery" data-analytics-gallery-id="smart home gallery" data-component-list=" SmartHomeGallery">
+						<div class="section-container content gallery-content">
+							<ul class="section-item-container item-container noteul" id="runs" role="list">
+								<div id="control" class="gallery-item current control-item" data-ac-gallery-item="">
+									<div class="tile tile-rounded tile-content">
+										<div class="tile-wrapper">
+											<h4 class="section-headline typography-gallery-tile-headline">Easily control your home<br> from anywhere with your<br> favorite devices.</h4>
+											<a href="/ios/home/" data-analytics-title="learn more about the home app" aria-label="learn more about the home app" class="icon-wrapper section-cta typography-cta typography-gallery-tile-cta"><span class="icon-copy">Learn more about the Home&nbsp;app</span><span class="icon icon-after more"></span></a> </div>
+										<div class="picture-wrapper">
+											<picture id="overview-control-your-home-1" class="overview-control-your-home loaded" data-lazy="" data-picture-loaded="">
+                        <source srcset="https://www.apple.com/v/tv-home/d/images/overview/control_your_home__ftcaw216qjqm_medium.jpg" media="(max-width:1068px)">
+                        <img src="https://www.apple.com/v/tv-home/d/images/overview/control_your_home__ftcaw216qjqm_large.jpg"  alt="">
+											</picture>
+											<noscript>
+												<picture class="overview-control-your-home">
+													<source srcset="/v/tv-home/d/images/overview/control_your_home__ftcaw216qjqm_medium.jpg, /v/tv-home/d/images/overview/control_your_home__ftcaw216qjqm_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/tv-home/d/images/overview/control_your_home__ftcaw216qjqm_large.jpg, /v/tv-home/d/images/overview/control_your_home__ftcaw216qjqm_large_2x.jpg 2x" media="(min-width:0px)" />
+													<img src="/v/tv-home/d/images/overview/control_your_home__ftcaw216qjqm_large.jpg" alt>
+												</picture>
+											</noscript>
+										</div>
+									</div>
+								</div>
+								<div id="connect" class="gallery-item connect-item" data-ac-gallery-item="" >
+									<div class="tile tile-rounded tile-content">
+										<div class="tile-wrapper">
+											<h4 class="section-headline typography-gallery-tile-headline">Seamlessly connected entertainment in every&nbsp;room.</h4>
+											<a href="/homepod-mini/" data-analytics-title="learn more about homepod mini" aria-label="learn more about homepod mini" class="icon-wrapper section-cta typography-cta typography-gallery-tile-cta"><span class="icon-copy">Learn more about HomePod&nbsp;mini</span><span class="icon icon-after more"></span></a> </div>
+										<div class="picture-wrapper">
+											<picture id="overview-seemlessly-connected-1" class="overview-seemlessly-connected loaded" data-lazy="" data-picture-loaded="">	
+                        <source srcset="https://www.apple.com/v/tv-home/d/images/overview/seemlessly_connected__fp9rabi8a7u6_medium.jpg" media="(max-width:1068px)">
+                        <img src="https://www.apple.com/v/tv-home/d/images/overview/seemlessly_connected__fp9rabi8a7u6_large.jpg" alt="">
+											</picture>
+											<noscript>
+												<picture class="overview-seemlessly-connected">
+													<source srcset="https://www.apple.com/v/tv-home/d/images/overview/entry__bfom4g78kbg2_medium.jpg" media="(min-width:0px)" />
+													<img src="/v/tv-home/d/images/overview/seemlessly_connected__fp9rabi8a7u6_large.jpg" alt>
+												</picture>
+											</noscript>
+										</div>
+									</div>
+								</div>
+								<div id="siri" class="gallery-item siri-item" data-ac-gallery-item="">
+									<div class="tile tile-rounded tile-content">
+										<div class="tile-wrapper">
+											<h4 class="section-headline typography-gallery-tile-headline">Run it all with your voice.</h4>
+											<a href="/siri/" data-analytics-title="learn more about siri" aria-label="learn more about siri" class="icon-wrapper section-cta typography-cta typography-gallery-tile-cta"><span class="icon-copy">Learn more about Siri</span><span class="icon icon-after more"></span></a> </div>
+										<div class="section-quotes-wrapper">
+											<p class="section-quote typography-gallery-tile-quote fade-in-up">Hey Siri, set<br> my bedtime<br> scene</p>
+											<p class="section-quote typography-gallery-tile-quote fade-in-up">Hey Siri, make it warmer</p>
+											<p class="section-quote typography-gallery-tile-quote fade-in-up">Hey Siri, turn <br>off the lights downstairs</p>
+										</div>
+									</div>
+								</div>
+								<div id="secure" class="gallery-item secure-item" data-ac-gallery-item="" >
+									<div class="tile tile-rounded tile-content">
+										<div class="tile-wrapper">
+											<h4 class="section-headline typography-gallery-tile-headline">All with the security <br> and privacy of Apple.</h4>
+											<a href="/privacy/" data-analytics-title="learn more about privacy" aria-label="learn more about privacy" class="icon-wrapper section-cta typography-cta typography-gallery-tile-cta"><span class="icon-copy">Learn more about Privacy</span><span class="icon icon-after more"></span></a> </div>
+										<div class="picture-wrapper">
+											<picture id="overview-security-and-privacy-1" class="overview-security-and-privacy loaded" data-lazy="" data-picture-loaded="">						
+                        <source srcset="https://www.apple.com/v/tv-home/d/images/overview/security_and_privacy__bzlguj2x29jm_medium.jpg" media="(max-width:1068px)">
+                        <img src="https://www.apple.com/v/tv-home/d/images/overview/security_and_privacy__bzlguj2x29jm_large.jpg"  alt="">
+											</picture>
+											<noscript>
+												<picture class="overview-security-and-privacy">
+													<source srcset="/v/tv-home/d/images/overview/security_and_privacy__bzlguj2x29jm_medium.jpg, /v/tv-home/d/images/overview/security_and_privacy__bzlguj2x29jm_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/tv-home/d/images/overview/security_and_privacy__bzlguj2x29jm_large.jpg, /v/tv-home/d/images/overview/security_and_privacy__bzlguj2x29jm_large_2x.jpg 2x" media="(min-width:0px)" />
+													<img src="/v/tv-home/d/images/overview/security_and_privacy__bzlguj2x29jm_large.jpg" alt>
+												</picture>
+											</noscript>
+										</div>
+									</div>
+								</div>
+							</ul>
+						</div>
+						<div data-analytics-gallery-interaction-type="paddlenav" class="section-paddlenav paddlenav paddlenav-framed">
+							<ul>
+								<li>
+									<button aria-label="Previous" class="paddlenav-arrow paddlenav-arrow-previous">
+												<svg class="svg-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+													<g transform="matrix(1 0 0 1 58.93574707031257 115.221435546875)">
+														<path d="M-36.9-78.2c8.2,0,15-6.8,15-15c0-8.2-6.8-15-15-15c-8.2,0-15,6.8-15,15C-51.9-85-45.1-78.2-36.9-78.2z M-36.9-80.2
+															C-44.2-80.2-50-86-50-93.2c0-7.2,5.8-13.1,13-13.1c7.2,0,13.1,5.8,13.1,13.1C-23.9-86-29.7-80.2-36.9-80.2z M-34.1-85.9
+															c0.3-0.3,0.3-0.9,0-1.2l-6.4-6.1l6.4-6.1c0.4-0.3,0.3-0.9,0-1.2c-0.3-0.3-0.9-0.3-1.2,0l-6.5,6.2c-0.7,0.6-0.7,1.6,0,2.2l6.5,6.2
+															C-35-85.6-34.4-85.5-34.1-85.9z"></path>
+													</g>
+												</svg>
+												<svg class="svg-icon icon-hover" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+													<g transform="matrix(1 0 0 1 58.93574707031257 115.221435546875)">
+														<path d="M-36.9-78.2c8.2,0,15-6.8,15-15c0-8.2-6.8-15-15-15c-8.2,0-15,6.8-15,15C-51.9-85-45.1-78.2-36.9-78.2z M-34.1-85.9
+															c-0.3,0.3-0.9,0.3-1.2,0l-6.5-6.2c-0.7-0.6-0.7-1.6,0-2.3l6.5-6.2c0.4-0.3,0.9-0.3,1.2,0c0.4,0.3,0.4,0.9,0,1.3l-6.4,6.1l6.4,6.1
+															C-33.7-86.8-33.7-86.2-34.1-85.9z"></path>
+													</g>
+												</svg>
+											</button>
+								</li>
+								<li>
+									<button aria-label="Next" class="paddlenav-arrow paddlenav-arrow-next">
+												<svg class="svg-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+													<g transform="matrix(1 0 0 1 58.93574707031257 115.221435546875)">
+														<path d="M-36.9-78.2c8.2,0,15-6.8,15-15c0-8.2-6.8-15-15-15c-8.2,0-15,6.8-15,15C-51.9-85-45.1-78.2-36.9-78.2z M-36.9-80.2
+															C-44.2-80.2-50-86-50-93.2c0-7.2,5.8-13.1,13-13.1c7.2,0,13.1,5.8,13.1,13.1C-23.9-86-29.7-80.2-36.9-80.2z M-40.2-85.9
+															c0.3,0.3,0.9,0.3,1.3,0l6.5-6.2c0.7-0.6,0.7-1.6,0-2.2l-6.5-6.2c-0.4-0.4-0.9-0.4-1.2,0c-0.4,0.3-0.4,0.9,0,1.2l6.4,6.1l-6.4,6.1
+															C-40.6-86.8-40.6-86.2-40.2-85.9z"></path>
+													</g>
+												</svg>
+												<svg class="svg-icon icon-hover" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+													<g transform="matrix(1 0 0 1 58.93574707031257 115.221435546875)">
+														<path d="M-36.9-78.2c8.2,0,15-6.8,15-15c0-8.2-6.8-15-15-15c-8.2,0-15,6.8-15,15C-51.9-85-45.1-78.2-36.9-78.2z M-40.3-85.7
+															c-0.4-0.4-0.4-0.9,0-1.3l6.5-6.2l-6.5-6.2c-0.4-0.3-0.4-0.9,0-1.3c0.4-0.3,0.9-0.3,1.3,0l6.6,6.3c0.7,0.6,0.7,1.7,0,2.3l-6.6,6.3
+															C-39.4-85.4-40-85.4-40.3-85.7z"></path>
+													</g>
+												</svg>
+											</button>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+    <section class="section section-accessories background-alt" data-anim-scroll-group="Accessories" data-component-list="Accessories">
+			<div class="section-content appear" data-analytics-section-engagement="name:accessories">
+				<div class="section-header large-7 large-centered medium-10 small-9">
+					<h2 class="section-header-headline typography-section-header-headline">Accessories. Around your home and across your devices.</h2>
+					<a href="/us/shop/goto/accessories/homekit" data-analytics-title="shop accessories" aria-label="shop accessories" class="icon-wrapper section-cta typography-section-header-cta"><span class="icon-copy">Shop accessories</span><span class="icon icon-after more"></span></a> </div>
+				<div aria-label="main gallery" class="section-gallery section-gallery-long" data-component-list="AccessoriesGallery">
+					<div class="gallery" id="accessories-gallery" data-analytics-gallery-id="accessories gallery" data-component-list=" AccessoriesGallery">
+						<div class="section-container content gallery-content">
+							<ul class="section-item-container item-container theul" role="list">
+								<div id="light" class="gallery-item current light-item" data-ac-gallery-item="">
+									<div class="tile tile-rounded tile-content">
+										<div class="tile-wrapper">
+											<h4 class="section-headline typography-gallery-tile-headline">Lighting</h4>
+											<p class="section-copy typography-gallery-tile-copy">Put your routine on a timer. Or set the mood with bulbs and&nbsp;switches.</p>
+											<a href="/us/shop/goto/accessories/homekit?page=1&amp;f=homeoutlet-homeswitch-lighting&amp;fh=482b%2B460d%2B49f4%2B49f5" data-analytics-title="shop lights &amp; bulbs, outlets, and switches" aria-label="shop lights &amp; bulbs, outlets, and switches" class="icon-wrapper section-cta typography-cta typography-gallery-tile-cta"><span class="icon-copy">Shop Lights &amp; Bulbs, Outlets, and&nbsp;Switches</span><span class="icon icon-after more"></span></a> </div>
+										<div class="picture-wrapper">
+											<picture id="overview-lighting-1" class="overview-lighting loaded" data-lazy="" data-picture-loaded="">
+												<source srcset="https://www.apple.com/v/tv-home/d/images/overview/lighting__bwpnaru6q1w2_medium.jpg" media="(max-width:1068px)">
+												<img src="https://www.apple.com/v/tv-home/d/images/overview/lighting__bwpnaru6q1w2_large.jpg"  alt="">
+											</picture>
+											<noscript>
+												<picture class="overview-lighting">
+													<source srcset="/v/tv-home/d/images/overview/lighting__bwpnaru6q1w2_medium.jpg, /v/tv-home/d/images/overview/lighting__bwpnaru6q1w2_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/tv-home/d/images/overview/lighting__bwpnaru6q1w2_large.jpg, /v/tv-home/d/images/overview/lighting__bwpnaru6q1w2_large_2x.jpg 2x" media="(min-width:0px)" />
+													<img src="/v/tv-home/d/images/overview/lighting__bwpnaru6q1w2_large.jpg" alt>
+												</picture>
+											</noscript>
+										</div>
+										<div class="product-wrapper">
+											<p class="section-device typography-gallery-tile-device">Nanoleaf A19 Bulb</p>
+										</div>
+									</div>
+								</div>
+								<div id="security" class="gallery-item security-item" data-ac-gallery-item="" >
+									<div class="tile tile-rounded tile-content">
+										<div class="tile-wrapper">
+											<h4 class="section-headline typography-gallery-tile-headline">Security</h4>
+											<p class="section-copy typography-gallery-tile-copy">Keep an eye on what matters most with cameras, doorbells, and&nbsp;more.</p>
+											<a href="/us/shop/goto/accessories/homekit?page=1&amp;f=securitycam-sensor&amp;fh=482b%2B463e%2B463d" data-analytics-title="shop cameras and sensors" aria-label="shop cameras and sensors" class="icon-wrapper section-cta typography-cta typography-gallery-tile-cta"><span class="icon-copy">Shop Cameras and Sensors</span><span class="icon icon-after more"></span></a> </div>
+										<div class="picture-wrapper">
+											<picture id="overview-security-1" class="overview-security loaded" data-lazy="" data-picture-loaded="">
+												<source srcset="https://www.apple.com/v/tv-home/d/images/overview/security__dbctk5zp4gcy_medium.jpg" media="(max-width:1068px)">
+                                                <img src="https://www.apple.com/v/tv-home/d/images/overview/security__dbctk5zp4gcy_large.jpg"  alt="">
+											</picture>
+											<noscript>
+												<picture class="overview-security">
+													<source srcset="/v/tv-home/d/images/overview/security__dbctk5zp4gcy_medium.jpg, /v/tv-home/d/images/overview/security__dbctk5zp4gcy_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/tv-home/d/images/overview/security__dbctk5zp4gcy_large.jpg, /v/tv-home/d/images/overview/security__dbctk5zp4gcy_large_2x.jpg 2x" media="(min-width:0px)" />
+													<img src="/v/tv-home/d/images/overview/security__dbctk5zp4gcy_large.jpg" alt>
+												</picture>
+											</noscript>
+										</div>
+										<div class="product-wrapper">
+											<p class="section-device typography-gallery-tile-device">Logitech Circle View Wired Doorbell</p>
+										</div>
+									</div>
+								</div>
+								<div id="comfort" class="gallery-item comfort-item" data-ac-gallery-item="" >
+									<div class="tile tile-rounded tile-content">
+										<div class="tile-wrapper">
+											<h4 class="section-headline typography-gallery-tile-headline">Comfort</h4>
+											<p class="section-copy typography-gallery-tile-copy">Turn up the heat or keep your cool with temperature controls and&nbsp;fans.</p>
+											<a href="/us/shop/goto/accessories/homekit?page=1&amp;f=thermostat&amp;fh=482b%2B465a" data-analytics-title="shop thermostats" aria-label="shop thermostats" class="icon-wrapper section-cta typography-cta typography-gallery-tile-cta"><span class="icon-copy">Shop Thermostats</span><span class="icon icon-after more"></span></a> </div>
+										<div class="picture-wrapper">
+											<picture id="overview-comfort-1" class="overview-comfort loaded" data-lazy="" data-picture-loaded="">
+												<source srcset="https://www.apple.com/v/tv-home/d/images/overview/comfort__bnwbuouyz10i_medium.jpg" media="(max-width:1068px)">
+												<img src="https://www.apple.com/v/tv-home/d/images/overview/comfort__bnwbuouyz10i_large.jpg" alt="">
+											</picture>
+											<noscript>
+												<picture class="overview-comfort">
+													<source srcset="/v/tv-home/d/images/overview/comfort__bnwbuouyz10i_medium.jpg, /v/tv-home/d/images/overview/comfort__bnwbuouyz10i_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/tv-home/d/images/overview/comfort__bnwbuouyz10i_large.jpg, /v/tv-home/d/images/overview/comfort__bnwbuouyz10i_large_2x.jpg 2x" media="(min-width:0px)" />
+													<img src="/v/tv-home/d/images/overview/comfort__bnwbuouyz10i_large.jpg" alt>
+												</picture>
+											</noscript>
+										</div>
+										<div class="product-wrapper morelines">
+											<p class="section-device typography-gallery-tile-device">ecobee SmartThermostat with Voice Control</p>
+										</div>
+									</div>
+								</div>
+								<div id="entry" class="gallery-item entry-item" data-ac-gallery-item="">
+									<div class="tile tile-rounded tile-content">
+										<div class="tile-wrapper">
+											<h4 class="section-headline typography-gallery-tile-headline">Entry</h4>
+											<p class="section-copy typography-gallery-tile-copy">Unlock more ways to access your home with locks and garage door&nbsp;openers.</p>
+											<a href="/us/shop/goto/accessories/homekit?page=1&amp;f=accesssecurity-sensor&amp;fh=482b%2B45ae%2B463e" data-analytics-title="shop sensors and locks" aria-label="shop sensors and locks" class="icon-wrapper section-cta typography-cta typography-gallery-tile-cta"><span class="icon-copy">Shop Sensors and Locks<sup class="footnote footnote-number">1</sup></span><span class="icon icon-after more"></span></a> </div>
+										<div class="picture-wrapper">
+											<picture id="overview-entry-1" class="overview-entry loaded" data-lazy="" data-picture-loaded="">
+                                            	<source srcset="https://www.apple.com/v/tv-home/d/images/overview/entry__bfom4g78kbg2_medium.jpg" media="(max-width:1068px)">
+												<img src="https://www.apple.com/v/tv-home/d/images/overview/entry__bfom4g78kbg2_large.jpg" alt="">
+											</picture>
+											<noscript>
+												<picture class="overview-entry">
+													<source srcset="/v/tv-home/d/images/overview/entry__bfom4g78kbg2_medium.jpg, /v/tv-home/d/images/overview/entry__bfom4g78kbg2_medium_2x.jpg 2x" media="(max-width:1068px)" /><source srcset="/v/tv-home/d/images/overview/entry__bfom4g78kbg2_large.jpg, /v/tv-home/d/images/overview/entry__bfom4g78kbg2_large_2x.jpg 2x" media="(min-width:0px)" />
+													<img src="/v/tv-home/d/images/overview/entry__bfom4g78kbg2_large.jpg" alt>
+												</picture>
+											</noscript>
+										</div>
+										<div class="product-wrapper">
+											<p class="section-device typography-gallery-tile-device">Yale Assure Lock SL Touchscreen Deadbolt – Black</p>
+										</div>
+									</div>
+								</div>
+							</ul>
+						</div>
+						<div data-analytics-gallery-interaction-type="paddlenav" class="section-paddlenav paddlenav paddlenav-framed">
+							<ul>
+								<li>
+									<button aria-label="Previous" class="paddlenav-arrow paddlenav-arrow-previous">
+												<svg class="svg-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+													<g transform="matrix(1 0 0 1 58.93574707031257 115.221435546875)">
+														<path d="M-36.9-78.2c8.2,0,15-6.8,15-15c0-8.2-6.8-15-15-15c-8.2,0-15,6.8-15,15C-51.9-85-45.1-78.2-36.9-78.2z M-36.9-80.2
+															C-44.2-80.2-50-86-50-93.2c0-7.2,5.8-13.1,13-13.1c7.2,0,13.1,5.8,13.1,13.1C-23.9-86-29.7-80.2-36.9-80.2z M-34.1-85.9
+															c0.3-0.3,0.3-0.9,0-1.2l-6.4-6.1l6.4-6.1c0.4-0.3,0.3-0.9,0-1.2c-0.3-0.3-0.9-0.3-1.2,0l-6.5,6.2c-0.7,0.6-0.7,1.6,0,2.2l6.5,6.2
+															C-35-85.6-34.4-85.5-34.1-85.9z"></path>
+													</g>
+												</svg>
+												<svg class="svg-icon icon-hover" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+													<g transform="matrix(1 0 0 1 58.93574707031257 115.221435546875)">
+														<path d="M-36.9-78.2c8.2,0,15-6.8,15-15c0-8.2-6.8-15-15-15c-8.2,0-15,6.8-15,15C-51.9-85-45.1-78.2-36.9-78.2z M-34.1-85.9
+															c-0.3,0.3-0.9,0.3-1.2,0l-6.5-6.2c-0.7-0.6-0.7-1.6,0-2.3l6.5-6.2c0.4-0.3,0.9-0.3,1.2,0c0.4,0.3,0.4,0.9,0,1.3l-6.4,6.1l6.4,6.1
+															C-33.7-86.8-33.7-86.2-34.1-85.9z"></path>
+													</g>
+												</svg>
+											</button>
+								</li>
+								<li>
+									<button aria-label="Next" class="paddlenav-arrow paddlenav-arrow-next">
+												<svg class="svg-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+													<g transform="matrix(1 0 0 1 58.93574707031257 115.221435546875)">
+														<path d="M-36.9-78.2c8.2,0,15-6.8,15-15c0-8.2-6.8-15-15-15c-8.2,0-15,6.8-15,15C-51.9-85-45.1-78.2-36.9-78.2z M-36.9-80.2
+															C-44.2-80.2-50-86-50-93.2c0-7.2,5.8-13.1,13-13.1c7.2,0,13.1,5.8,13.1,13.1C-23.9-86-29.7-80.2-36.9-80.2z M-40.2-85.9
+															c0.3,0.3,0.9,0.3,1.3,0l6.5-6.2c0.7-0.6,0.7-1.6,0-2.2l-6.5-6.2c-0.4-0.4-0.9-0.4-1.2,0c-0.4,0.3-0.4,0.9,0,1.2l6.4,6.1l-6.4,6.1
+															C-40.6-86.8-40.6-86.2-40.2-85.9z"></path>
+													</g>
+												</svg>
+												<svg class="svg-icon icon-hover" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44">
+													<g transform="matrix(1 0 0 1 58.93574707031257 115.221435546875)">
+														<path d="M-36.9-78.2c8.2,0,15-6.8,15-15c0-8.2-6.8-15-15-15c-8.2,0-15,6.8-15,15C-51.9-85-45.1-78.2-36.9-78.2z M-40.3-85.7
+															c-0.4-0.4-0.4-0.9,0-1.3l6.5-6.2l-6.5-6.2c-0.4-0.3-0.4-0.9,0-1.3c0.4-0.3,0.9-0.3,1.3,0l6.6,6.3c0.7,0.6,0.7,1.7,0,2.3l-6.6,6.3
+															C-39.4-85.4-40-85.4-40.3-85.7z"></path>
+													</g>
+												</svg>
+											</button>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		</div>
+	</section>
+	<section class="section section-big-screen background-alt">
+		<div class="row appear">
+			<div class="section-header">
+				<div class="section-content row">
+					<div class="large-12 large-centered">
+						<h2 class="section-header-headline typography-section-header-headline">
+							Watch, sing, play, 
+							<br class="small">
+							and work out.
+							<br class="small">
+							On the big screen.
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="section-video">
+				<div class="device-wrapper">
+					<picture class="overview-apple-experience-hardware hardware-screen loaded">
+						<img src="https://www.apple.com/v/tv-home/d/images/overview/apple_experience_hardware__bk2gaiiovh7m_large.png" alt>
+					</picture>
+				</div>
+				<div class="video-wrapper loaded paused">
+					<picture class="overview-sizzle-startframe staticframe loaded">
+						<img src="https://www.apple.com/v/tv-home/d/images/overview/sizzle_startframe__ebeh0kpfpk2u_large.jpg">
+					</picture>
+					<video class="video" id="big-screen-video" muted playsinline loop data-inline-media type="video/mp4"
+					src="https://www.apple.com/105/media/us/tv-home/2021/6123d7e6-6428-4838-aa37-65d1c499e3b7/anim/sizzle/large_2x.mp4">
+					</video>
+					<div class="inline-media-ui">
+						<button class="play-pause-button loaded" id="okplay" onclick="Play()">
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="section-content">
+				<div class="section-services grid">
+					<div class="grid-item large-span-3 medium-span-6 small-span-12 service-tile tv">
+						<div class="service-tile-screen">
+						</div>
+						<div class="service-tile-image">
+							<picture id="overview-tv-plus-logo-1" class="overview-tv-plus-logo loaded">
+								<img src="https://www.apple.com/v/tv-home/d/images/overview/tv_plus_logo__ftim9r0zkyum_large.png">
+							</picture>
+						</div>
+						<h2 class="service-tile-headline typography-service-tile-copy">
+							Stream award-winning Apple Originals on every screen.
+						</h2>
+						<div class="service-tile-ctas">
+							<a href="#" class="button service-tile-button">Try it free
+								<sup class="footnote footnote-number">2</sup>
+							</a>
+							<a class="icon-wrapper service-tile-cta typography-cta" href="#">
+								<span class="icon-copy">Learn more</span>
+								<span class="icon icon-after more"></span>
+							</a>
+						</div>
+					</div>
+					<div class="grid-item large-span-3 medium-span-6 small-span-12 service-tile music">
+						<div class="service-tile-screen">
+						</div>
+						<div class="service-tile-image">
+							<picture id="overview-apple-music-logo-1" class="overview-apple-music-logo loaded" data-lazy="" data-picture-loaded="">
+								<img src="https://www.apple.com/v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_large.png"  alt="learn more about apple music">
+							</picture>
+							<noscript>
+										<picture class="overview-apple-music-logo">
+											<source srcset="/v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_medium.png, /v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_medium_2x.png 2x" media="(max-width:1068px)" /><source srcset="/v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_large.png, /v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_large_2x.png 2x" media="(min-width:0px)" />
+											<img src="/v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_large.png" alt="learn more about apple music">
+										</picture>
+									</noscript>
+						</div>
+						<h2 class="service-tile-headline typography-service-tile-copy">Access all your favorite songs and sing along with lyrics&nbsp;view.</h2>
+						<div class="service-tile-ctas">
+							<a href="#" class="button service-tile-button" data-analytics-title="try it free - apple music" data-rid-relay="{&quot;286&quot;:&quot;itsct&quot;}" aria-label="try apple music free" data-analytics-exit-link="">Try it free<sup class="footnote footnote-number">3</sup></a>
+							<a href="#" data-analytics-title="learn more about apple music" aria-label="learn more about apple music" class="icon-wrapper service-tile-cta typography-cta">
+								<span class="icon-copy">Learn more</span>
+								<span class="icon icon-after more"></span>
+							</a> 
+						</div>
+					</div>
+					<div class="grid-item large-span-3 medium-span-6 small-span-12 service-tile fitness">
+						<div class="service-tile-screen">
+						</div>
+						<div class="service-tile-image">
+							<picture id="overview-apple-music-logo-1" class="overview-apple-music-logo loaded" data-lazy="" data-picture-loaded="">
+								<img src="https://www.apple.com/v/tv-home/d/images/overview/fitness_plus_logo__ejje682nywae_large.png"  alt="learn more about apple music">
+							</picture>
+							<noscript>
+										<picture class="overview-apple-music-logo">
+											<source srcset="/v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_medium.png, /v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_medium_2x.png 2x" media="(max-width:1068px)" /><source srcset="/v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_large.png, /v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_large_2x.png 2x" media="(min-width:0px)" />
+											<img src="/v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_large.png" alt="learn more about apple music">
+										</picture>
+									</noscript>
+						</div>
+						<h2 class="service-tile-headline typography-service-tile-copy">From HIIT to Meditation, there’s something for everyone.</h2>
+						<div class="service-tile-ctas">
+							<a href="#" class="button service-tile-button" data-analytics-title="try it free - apple music" data-rid-relay="{&quot;286&quot;:&quot;itsct&quot;}" aria-label="try apple music free" data-analytics-exit-link="">
+								Try it free
+								<sup class="footnote footnote-number">4</sup>
+							</a>
+							<a href="#" data-analytics-title="learn more about apple music" aria-label="learn more about apple music" class="icon-wrapper service-tile-cta typography-cta">
+								<span class="icon-copy">Learn more</span>
+								<span class="icon icon-after more"></span>
+							</a> 
+						</div>
+					</div>
+					<div class="grid-item large-span-3 medium-span-6 small-span-12 service-tile arcade">
+						<div class="service-tile-screen">
+						</div>
+						<div class="service-tile-image">
+							<picture id="overview-apple-music-logo-1" class="overview-apple-music-logo loaded" data-lazy="" data-picture-loaded="">
+								<img src="https://www.apple.com/v/tv-home/d/images/overview/apple_arcade_logo__fkj0u4ziuguy_large.png"  alt="learn more about apple music">
+							</picture>
+							<noscript>
+										<picture class="overview-apple-music-logo">
+											<source srcset="/v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_medium.png, /v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_medium_2x.png 2x" media="(max-width:1068px)" /><source srcset="/v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_large.png, /v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_large_2x.png 2x" media="(min-width:0px)" />
+											<img src="/v/tv-home/d/images/overview/apple_music_logo__fysswdp9i4yi_large.png" alt="learn more about apple music">
+										</picture>
+							</noscript>
+						</div>
+						<h2 class="service-tile-headline typography-service-tile-copy">Over 200 incredibly fun games. No ads. No in-app purchases.</h2>
+						<div class="service-tile-ctas">
+							<a href="#" class="button service-tile-button" data-analytics-title="try it free - apple music" data-rid-relay="{&quot;286&quot;:&quot;itsct&quot;}" aria-label="try apple music free" data-analytics-exit-link="">
+								Try it free
+								<sup class="footnote footnote-number">5</sup>
+							</a>
+							<a href="#" data-analytics-title="learn more about apple music" aria-label="learn more about apple music" class="icon-wrapper service-tile-cta typography-cta">
+								<span class="icon-copy">Learn more</span>
+								<span class="icon icon-after more"></span>
+							</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+  </main>
+  <!----main----->
+  <footer id="ac-globalfooter" class="js">
+	<div class="ac-gf-content">
+		<h2 class="ac-gf-label">Apple Footer</h2>
+		<section class="ac-gf-buystrip">
+			<div class="ac-gf-buystrip-info with-2-columns">
+				<section class="ac-gf-buystrip-info-column ac-gf-buystrip-info-shipping">
+					<div class="ac-gf-buystrip-info-content with-cta">
+						<a href="#" class="ac-gf-block">
+							<figure class="ac-gf-buystrip-info-icon ac-gf-buystrip-info-icon-shipping"></figure>
+							<h3 class="ac-gf-buystrip-info-title">Free delivery</h3>
+							<p class="ac-gf-buystrip-info-copy">
+								And free returns. See checkout
+								<br>
+								for delivery dates.
+							</p>
+							<span class="ac-gf-buystrip-info-cta ac-gf-more ac-gf-block-link">
+								Learn more
+							</span>
+						</a>
+					</div>
+				</section>
+				<section class="ac-gf-buystrip-info-column ac-gf-buystrip-info-help" data-analytics-region="help">
+					<div class="ac-gf-buystrip-info-content with-cta"><a class="ac-gf-block" href="https://contactretail.apple.com/?pg=COM:tv-home&amp;ap=COM&amp;c=us&amp;l=en" data-analytics-title="get help buying" data-analytics-exit-link="">
+						<figure class="ac-gf-buystrip-info-icon ac-gf-buystrip-info-icon-help"></figure>
+						<h3 class="ac-gf-buystrip-info-title">Get help buying</h3>
+						<p class="ac-gf-buystrip-info-copy">Have a question? Call a Specialist or chat online.</p>
+						<p class="ac-gf-buystrip-info-caption">Call 1-800-MY-APPLE.</p>
+						
+						<span class="ac-gf-buystrip-info-cta ac-gf-buystrip-info-cta-chat ac-gf-more ac-gf-block-link">Contact us</span>
+						
+					</a></div>
+				</section>
+			</div>
+		</section>
+		<section class="ac-gf-sosumi" aria-label="Footnotes">
+			<ol>
+				<li id="footnote-1">Product availability varies by country.</li>
+				<li id="footnote-2">New subscribers only. $4.99/month after free trial. Plan automatically renews until cancelled. Terms&nbsp;apply.</li>
+				<li id="footnote-3">New subscribers only. $9.99/month after free trial. Plan automatically renews until cancelled. Terms&nbsp;apply.</li>
+				<li id="footnote-4">Apple Watch required. New subscribers only. $9.99/month after free trial. Plan automatically renews after trial until cancelled. Terms&nbsp;apply.</li>
+				<li id="footnote-5">New subscribers only. $4.99/month after free trial. Plan automatically renews until cancelled. Terms&nbsp;apply.</li>
+			</ol>
+			
+		</section>
+		<nav class="ac-gf-directory with-5-columns" aria-label="Apple Directory" role="navigation">
+			<!--googleoff: all-->
+			<div class="ac-gf-directory-column"><input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-products">
+				<div class="ac-gf-directory-column-section">
+					<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-products">
+						<h3 class="ac-gf-directory-column-section-title">Shop and Learn</h3>
+					</label>
+					<a href="#ac-gf-directory-column-section-state-products" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+						<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+					</a>
+					<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+						<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+					</a>
+					<ul class="ac-gf-directory-column-section-list">
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/us/shop/goto/store" data-analytics-title="store">Store</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/mac/" data-analytics-title="mac">Mac</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/ipad/" data-analytics-title="ipad">iPad</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/iphone/" data-analytics-title="iphone">iPhone</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/watch/" data-analytics-title="watch">Watch</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/airpods/" data-analytics-title="airpods">AirPods</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/tv-home/" data-analytics-title="tv and home">TV &amp; Home</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/airtag/" data-analytics-title="airtag">AirTag</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/us/shop/goto/buy_accessories" data-analytics-title="accessories">Accessories</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/us/shop/goto/giftcards" data-analytics-title="gift cards">Gift Cards</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="ac-gf-directory-column">
+				<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-services">
+				<div class="ac-gf-directory-column-section">
+					<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-services">
+						<h3 class="ac-gf-directory-column-section-title">Services</h3>
+					</label>
+					<a href="#ac-gf-directory-column-section-state-services" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+						<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+					</a>
+					<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+						<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+					</a>
+					<ul class="ac-gf-directory-column-section-list">
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/apple-music/" data-analytics-title="apple music">Apple&nbsp;Music</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/apple-tv-plus/" data-analytics-title="apple tv plus">Apple&nbsp;TV+</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/apple-fitness-plus/" data-analytics-title="apple fitness plus">Apple&nbsp;Fitness+</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/apple-news/" data-analytics-title="apple news plus">Apple&nbsp;News+</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/apple-arcade/" data-analytics-title="apple arcade">Apple&nbsp;Arcade</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/icloud/" data-analytics-title="icloud">iCloud</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/apple-one/" data-analytics-title="apple one">Apple&nbsp;One</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/apple-card/" data-analytics-title="apple card">Apple&nbsp;Card</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/apple-books/" data-analytics-title="apple books">Apple&nbsp;Books</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/apple-podcasts/" data-analytics-title="apple podcasts">Apple Podcasts</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/app-store/" data-analytics-title="app store">App&nbsp;Store</a></li>
+					</ul>
+				</div>
+				<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-accounts">
+				<div class="ac-gf-directory-column-section">
+					<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-accounts">
+						<h3 class="ac-gf-directory-column-section-title">Account</h3>
+					</label>
+					<a href="#ac-gf-directory-column-section-state-accounts" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+						<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+					</a>
+					<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+						<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+					</a>
+					<ul class="ac-gf-directory-column-section-list">
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://appleid.apple.com/us/" data-analytics-title="manage your apple id" data-analytics-exit-link="">Manage Your Apple&nbsp;ID</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/us/shop/goto/account" data-analytics-title="apple store account">Apple Store Account</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.icloud.com" data-analytics-title="icloud.com" data-analytics-exit-link="">iCloud.com</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="ac-gf-directory-column"><input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-storeservices">
+				<div class="ac-gf-directory-column-section">
+					<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-storeservices">
+						<h3 class="ac-gf-directory-column-section-title">Apple Store</h3>
+					</label>
+					<a href="#ac-gf-directory-column-section-state-storeservices" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+						<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+					</a>
+					<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+						<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+					</a>
+					<ul class="ac-gf-directory-column-section-list">
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/retail/" data-analytics-title="find a store">Find a Store</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/retail/geniusbar/" data-analytics-title="genius bar">Genius Bar</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/today/" data-analytics-title="today at apple">Today at Apple</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/today/camp/" data-analytics-title="apple camp">Apple Camp</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://apps.apple.com/us/app/apple-store/id375380948" data-analytics-title="apple store app" data-analytics-exit-link="">Apple Store App</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/us/shop/goto/special_deals" data-analytics-title="refurbished and clearance">Refurbished and Clearance</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/us/shop/goto/payment_plan" data-analytics-title="financing">Financing</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/us/shop/goto/trade_in" data-analytics-title="apple trade in">Apple&nbsp;Trade&nbsp;In</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/us/shop/goto/order/list" data-analytics-title="order status">Order Status</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/us/shop/goto/help" data-analytics-title="shopping help">Shopping Help</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="ac-gf-directory-column">
+				<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-business">
+				<div class="ac-gf-directory-column-section">
+					<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-business">
+						<h3 class="ac-gf-directory-column-section-title">For Business</h3>
+					</label>
+					<a href="#ac-gf-directory-column-section-state-business" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+						<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+					</a>
+					<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+						<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+					</a>
+					<ul class="ac-gf-directory-column-section-list">
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/business/" data-analytics-title="apple and business">Apple and Business</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/retail/business/" data-analytics-title="shop for business">Shop for Business</a></li>
+					</ul>
+				</div>
+				<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-education">
+				<div class="ac-gf-directory-column-section">
+					<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-education">
+						<h3 class="ac-gf-directory-column-section-title">For Education</h3>
+					</label>
+					<a href="#ac-gf-directory-column-section-state-education" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+						<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+					</a>
+					<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+						<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+					</a>
+					<ul class="ac-gf-directory-column-section-list">
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/education/" data-analytics-title="apple and education">Apple and Education</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/education/k12/how-to-buy/" data-analytics-title="shop for k12">Shop for K-12</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/us/shop/goto/educationrouting" data-analytics-title="shop for college">Shop for College</a></li>
+					</ul>
+				</div>
+				<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-healthcare">
+				<div class="ac-gf-directory-column-section">
+					<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-healthcare">
+						<h3 class="ac-gf-directory-column-section-title">For Healthcare</h3>
+					</label>
+					<a href="#ac-gf-directory-column-section-state-healthcare" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+						<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+					</a>
+					<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+						<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+					</a>
+					<ul class="ac-gf-directory-column-section-list">
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/healthcare/" data-analytics-title="apple in healthcare">Apple in Healthcare</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/healthcare/apple-watch/" data-analytics-title="health on apple watch">Health on Apple&nbsp;Watch</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/healthcare/health-records/" data-analytics-title="health records on iphone">Health Records on iPhone</a></li>
+					</ul>
+				</div>
+				<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-government">
+				<div class="ac-gf-directory-column-section">
+					<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-government">
+						<h3 class="ac-gf-directory-column-section-title">For Government</h3>
+					</label>
+					<a href="#ac-gf-directory-column-section-state-government" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+						<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+					</a>
+					<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+						<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+					</a>
+					<ul class="ac-gf-directory-column-section-list">
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/r/store/government/" data-analytics-title="shop for government">Shop for Government</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/us/shop/goto/eppstore/veteransandmilitary" data-analytics-title="shop for veterans and military">Shop for Veterans and Military</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="ac-gf-directory-column">
+				<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-responsibility">
+				<div class="ac-gf-directory-column-section">
+					<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-responsibility">
+						<h3 class="ac-gf-directory-column-section-title">Apple Values</h3>
+					</label>
+					<a href="#ac-gf-directory-column-section-state-responsibility" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+						<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+					</a>
+					<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+						<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+					</a>
+					<ul class="ac-gf-directory-column-section-list">
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/accessibility/" data-analytics-title="accessibility">Accessibility</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/education/connectED/" data-analytics-title="education">Education</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/environment/" data-analytics-title="environment">Environment</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/diversity/" data-analytics-title="inclusion and diversity">Inclusion and Diversity</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/privacy/" data-analytics-title="privacy">Privacy</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/racial-equity-justice-initiative/" data-analytics-title="racial equity and justice">Racial Equity and Justice</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/supplier-responsibility/" data-analytics-title="supplier responsibility">Supplier Responsibility</a></li>
+					</ul>
+				</div>
+				<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-about">
+				<div class="ac-gf-directory-column-section">
+					<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-about">
+						<h3 class="ac-gf-directory-column-section-title">About Apple</h3>
+					</label>
+					<a href="#ac-gf-directory-column-section-state-about" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+						<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+					</a>
+					<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+						<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+					</a>
+					<ul class="ac-gf-directory-column-section-list">
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/newsroom/" data-analytics-title="newsroom">Newsroom</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/leadership/" data-analytics-title="apple leadership">Apple Leadership</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/careers/us/" data-analytics-title="career opportunities">Career Opportunities</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://investor.apple.com/" data-analytics-title="investors" data-analytics-exit-link="">Investors</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/compliance/" data-analytics-title="ethics and compliance">Ethics &amp; Compliance</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/apple-events/" data-analytics-title="events">Events</a></li>
+						<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="/contact/" data-analytics-title="contact apple">Contact Apple</a></li>
+					</ul>
+				</div>
+			</div>
+			<!--googleon: all-->
+		</nav>
+		<section class="ac-gf-footer">
+			<div class="ac-gf-footer-shop" x-ms-format-detection="none">
+				More ways to shop: <a href="/retail/" data-analytics-title="find an apple store">Find an Apple Store</a> or <a href="https://locate.apple.com/" data-analytics-title="other retailers or resellers" data-analytics-exit-link="">other retailer</a> near you. <span class="nowrap">Or call 1-800-MY-APPLE.</span>
+			</div>
+			<div class="ac-gf-footer-locale">
+				<a class="ac-gf-footer-locale-link" href="/choose-country-region/" title="Choose your country or region" aria-label="United States. Choose your country or region" data-analytics-title="choose your country">United States</a>
+			</div>
+			<div class="ac-gf-footer-legal">
+				<div class="ac-gf-footer-legal-copyright">Copyright ©
+					
+					2022
+					 Apple Inc. All rights reserved.
+				</div>
+				<div class="ac-gf-footer-legal-links">
+					<a class="ac-gf-footer-legal-link" href="/legal/privacy/" data-analytics-title="privacy policy">Privacy Policy</a>
+					<a class="ac-gf-footer-legal-link" href="/legal/internet-services/terms/site.html" data-analytics-title="terms of use">Terms of Use</a>
+					<a class="ac-gf-footer-legal-link" href="/us/shop/goto/help/sales_refunds" data-analytics-title="sales and refunds">Sales and Refunds</a>
+					<a class="ac-gf-footer-legal-link" href="/legal/" data-analytics-title="legal">Legal</a>
+					<a class="ac-gf-footer-legal-link" href="/sitemap/" data-analytics-title="site map">Site Map</a>
+				</div>
+			</div>
+		</section>
+	</div>
+  </footer>
+</body>
+<script src="main.js"></script>
+<script src="slide.js"></script>
